@@ -4,7 +4,7 @@ This script makes fragment midpoint versus fragment lenght plots at specified ge
 (https://www.pnas.org/doi/abs/10.1073/pnas.1110731108)
 
 **Motivation:** Pileup of sequenced reads is frequently used to visualize signal in genomics experiments however such representation looses information about the fragment length. Such information is important in the studies of the mechanisms of DNA protein binding. To address this need midpoint fragment plots were introduced in (https://www.pnas.org/doi/full/10.1073/pnas.1118898109). See image below for explanation.
-<img src=./images/pnas.1118898109fig03.jpeg>
+<img src=./Images/pnas.1118898109fig03.jpeg>
 
 **Usage MidpointPlotter**
 
@@ -36,4 +36,4 @@ Options:
 ``python MidpointPlotter.py GSM836161_P20_20110726_8_sorted.bam centromers_yeast.bed cen_plots ``
 
 Below is midpint plot of all budding yeast centromeres aggregated together. Sequence file is from (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM836161)
-<img src=./images/cen_plots.png> 
+<img src=./Images/cen_plots.png> 
