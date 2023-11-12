@@ -10,20 +10,20 @@ This script makes fragment midpoint versus fragment lenght plots at specified ge
 
 Options:
 
-       BAN file name
+       BAM file name
                 sequences file name
 
        bed file name
                 file with coordinates of genomic positions to visualize reads at; must contain coordinates and names of the position
 
        output file name
-                name of the file with plots
+                name of the output file with plots
 
        -w (optional) integer
                 size of the window to plot; defaults to 150 bp
 
        -c (optional) True or False
-                if True one plot for all genomic positions aggregated is produced; if set to FALSE one plot is produced for each position; defaults to True
+                if True generates one plot for all genomic positions aggregated; if set to False makes one plot for each position; defaults to True
 
        -f (optional) True or False
                 if True saves to pdf file; if False saves to png file; defaults to False
